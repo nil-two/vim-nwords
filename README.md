@@ -1,7 +1,7 @@
 vim-nwords
 ==========
 
-Check the number of words.
+Count the number of words.
 
 Usage
 -----
@@ -13,10 +13,10 @@ Example of vimrc
 ----------------
 
 ```vim
-" Check the number of words in the current buffer.
+" Count the number of words in the current buffer.
 nmap <silent>gw <Plug>(nwords-count-words)
 
-" Check the number of words in the selected range.
+" Count the number of words in the selected range.
 vmap <silent>gw <Plug>(nwords-count-words)
 ```
 

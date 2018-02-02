@@ -1,4 +1,4 @@
-*nwords.txt*   Check the number of words.
+*nwords.txt*   Count the number of words.
 
 Version: 0.1.0
 Author : nil2 <kusabashira227@gmail.com>
@@ -17,7 +17,7 @@ CHANGELOG        |nwords-changelog|
 ==============================================================================
 INTRODUCTION                                    *nwords-introduction*
 
-*nwords* provides a way to check the number of words.
+*nwords* provides a way to count the number of words.
 
 Requirements:
 - Vim 8.0 or later
