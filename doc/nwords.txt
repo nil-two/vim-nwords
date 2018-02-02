@@ -1,0 +1,68 @@
+*nwords.txt*   Check the number of words.
+
+Version: 0.1.0
+Author : nil2 <kusabashira227@gmail.com>
+License: MIT License
+
+==============================================================================
+CONTENTS                                        *nwords-contents*
+
+INTRODUCTION     |nwords-introduction|
+INTERFACE        |nwords-interface|
+  FUNCTIONS        |nwords-functions|
+  KEY MAPPINGS     |nwords-key-mappings|
+CHANGELOG        |nwords-changelog|
+
+
+==============================================================================
+INTRODUCTION                                    *nwords-introduction*
+
+*nwords* provides a way to check the number of words.
+
+Requirements:
+- Vim 8.0 or later
+
+Latest version:
+https://github.com/kusabashira/vim-nwords
+
+
+==============================================================================
+INTERFACE                                       *nwords-interface*
+
+------------------------------------------------------------------------------
+FUNCTIONS                                       *nwords-commands*
+
+nwords#count_words({list-of-string})            *nwords#count_words()*
+                Count number of words in argument strings.
+
+nwords#count_words_all()                        *nwords#count_words_all()*
+                Count number of words in the current buffer.
+
+nwords#count_words_range()                      *nwords#count_words_range()*
+                Count number of words in the selected range.
+
+nwords#print_words_count_all()                  *nwords#print_words_count_all()*
+                Print words-count in the buffer.
+
+nwords#print_words_count_range()                *nwords#print_words_count_range()*
+                Print words-count in the selected range.
+
+------------------------------------------------------------------------------
+KEY MAPPINGS                                    *nwords-key-mappings*
+
+<Plug>(nwords-count-words)                      *<Plug>(nwords-count-words)*
+                Print words-count in the buffer.
+
+<Plug>(nwords-count-words)                      *<Plug>(nwords-count-words)*
+                Print words-count in the selected range.
+
+
+==============================================================================
+CHANGELOG                                       *nwords-changelog*
+
+0.1.0   2018-02-02
+        - Initial version.
+
+
+==============================================================================
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl
